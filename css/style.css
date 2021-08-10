@@ -140,6 +140,11 @@ p {
   width: 100%;
 }
 
+.gallery2 {
+  width: 100%;
+  margin-top: 50px;
+}
+
 .galleryrow {
   height: 400px;
   display: -ms-flexbox; /* IE10 */
@@ -164,6 +169,7 @@ p {
 #layout2 {
   -ms-flex: 40%;
   flex: 40%;
+  
 }
 #layout3 {
   -ms-flex: 50%;
@@ -172,6 +178,10 @@ p {
 #layout4 {
   -ms-flex: 33%;
   flex: 33%;
+}
+#layout5 {
+  -ms-flex: 100%;
+  flex: 100%;
 }
 
 .images:hover {
@@ -243,6 +253,97 @@ p {
 }
 #image6:hover {
   background-image: url('/images/coast_fraser_product_video_02.jpg');
+}
+
+/*** Illustrations ***/
+
+#ill1 {
+  width: 100%;
+  height: 90%;
+  background-image: url(/images/pfpsis.jpg);
+  background-position: center; 
+  background-size: cover;
+  cursor: default;
+}
+#ill2 {
+  width: 100%;
+  height: 90%;
+  background-image: url(/images/blondegirl.JPG);
+  background-position: center; 
+  background-size: cover;
+  cursor: default;
+}
+#ill3 {
+  width: 100%;
+  height: 90%;
+  background-image: url(/images/pfpwill.jpg);
+  background-position: center; 
+  background-size: cover;
+  cursor: default;
+}
+#ill4 {
+  width: 100%;
+  height: 90%;
+  background-image: url(/images/huion.jpg);
+  background-position: center; 
+  background-size: cover;
+  cursor: default;
+}
+#ill5 {
+  width: 100%;
+  height: 90%;
+  background-image: url(/images/floatingcouple.jpg);
+  background-position: center; 
+  background-size: cover;
+  cursor: default;
+}
+#ill6 {
+  width: 100%;
+  height: 90%;
+  background-image: url(/images/sketchhand.png);
+  background-position: center; 
+  background-size: cover;
+  cursor: default;
+}
+#ill7 {
+  width: 100%;
+  height: 90%;
+  background-image: url(/images/sketchgirl.png);
+  background-position: center; 
+  background-size: cover;
+  cursor: default;
+}
+#ill8 {
+  width: 100%;
+  height: 90%;
+  background-image: url(/images/sketchprincess.png);
+  background-position: center; 
+  background-size: cover;
+  cursor: default;
+}
+#ill9 {
+  width: 100%;
+  height: 90%;
+  background-image: url(/images/pfpcaro.png);
+  background-position: center; 
+  background-size: cover;
+  cursor: default;
+}
+#ill10 {
+  width: 100%;
+  height: 90%;
+  background-image: url(/images/pfpcate.jpg);
+  background-position: center; 
+  background-size: cover;
+  cursor: default;
+}
+#ill11 {
+  width: 100%;
+  height: 90%;
+  background-image: url(/images/family.png);
+  background-position: center; 
+  background-size: cover;
+  cursor: default;
 }
 
 
