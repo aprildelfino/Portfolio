@@ -286,7 +286,8 @@ p {
   height: 90%;
   background-image: url(/images/huion.jpg);
   background-position: center; 
-  background-size: cover;
+  background-size: contain;
+  background-repeat: no-repeat;
   cursor: default;
 }
 #ill5 {
@@ -294,7 +295,8 @@ p {
   height: 90%;
   background-image: url(/images/floatingcouple.jpg);
   background-position: center; 
-  background-size: cover;
+  background-size: contain;
+  background-repeat: no-repeat;
   cursor: default;
 }
 #ill6 {
