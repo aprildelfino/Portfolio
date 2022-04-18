@@ -192,34 +192,34 @@ p {
 #image1 {
   width: 100%;
   height: 90%;
-  background-image: url(/images/coast_fraser_product_guide.jpg);
+  background-image: url(/images/bychloecruz_makeup_packaging.jpg);
   background-position: center; 
   background-size: cover;
 }
 #image1:hover {
-  background-image: url('/images/coast_fraser_product_guide_products_side.jpg');
+  background-image: url('/images/bychloecruz_makeup_packaging_back.jpg');
 }
 
 #image2 {
   width: 100%;
   height: 90%;
-  background-image: url(/images/mulan_movie_poster_with_bg2.jpg);
+  background-image: url(/images/coast_fraser_product_guide.jpg);
   background-position: center; 
   background-size: cover;
 }
 #image2:hover {
-  background-image: url('/images/mulan_movie_poster2.jpg');
+  background-image: url('/images/coast_fraser_product_guide_products_side.jpg');
 }
 
 #image3 {
   width: 100%;
   height: 90%;
-  background-image: url(/images/JAJA_website.jpg);
+  background-image: url(/images/JAJA_website_login.png);
   background-position: center; 
   background-size: cover;
 }
 #image3:hover {
-  background-image: url('/images/JAJA_website_home.png')
+  background-image: url('/images/JAJA_website_start.png')
 }
 
 #image4 {
@@ -247,12 +247,12 @@ p {
 #image6 {
   width: 100%;
   height: 90%;
-  background-image: url('/images/coast_fraser_product_video_01.jpg');
+  background-image: url('/images/coast_fraser_product_video_02.jpg');
   background-position: center; 
   background-size: cover;
 }
 #image6:hover {
-  background-image: url('/images/coast_fraser_product_video_02.jpg');
+  background-image: url('/images/coast_fraser_product_video_01.jpg');
 }
 
 /*** Illustrations ***/
@@ -487,9 +487,11 @@ p {
 
 .aboutimg1 {
   width: 65%;
+  max-height: 25em;
   margin: 5% 0 0 0;
   border: #ffffff 10px solid;
   border-left: none;
+  object-fit: cover;
 }
 
 .aboutimg2 {
@@ -603,12 +605,18 @@ p {
   border: none;
 }
 
+.col1 h2 {
+  padding-top: 1em;
+}
+
 .col1 {
   padding: 0 10%;
+  position: relative;
 }
 
 .col2 {
-  display: none;
+  /* display: none; */
+  margin-top: 3em;
 }
 
 
