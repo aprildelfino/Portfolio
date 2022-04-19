@@ -6,6 +6,7 @@ h2 {
   margin: 0 0 5px 4%;
   font-size: 3rem;
   font-family: 'Open Sans', sans-serif;
+  color: #FFA430;
 }
 h3 {
   margin: 0 0 30px 5%;
@@ -20,13 +21,15 @@ a, a:hover {
 }
 
 #topape {
-  color: #ff6b6b;
+  color: #FF7F5D;
   font-family: 'Red Hat Display', sans-serif;
   font-size: 1.5rem;
   font-weight: 100;
   letter-spacing: 6px;
-  display: block;
+  /* display: block; */
   float: left;
+  align-items: center;
+  display: flex;
 }
 
 .display-4 {
@@ -36,12 +39,24 @@ a, a:hover {
   font-weight: bold;
   letter-spacing: 2px;
   margin-bottom: 10%;
-  margin-right: 10%;
+  margin-right: 3%;
   animation: slideInDown 1s forwards;
 }
 
 .boldape {
-  color: #ff6b6b;
+  color: #FF7F5D;
+}
+
+.orangewords {
+  color: #FFA430;
+}
+
+.yellow {
+  color: #FFCC30;
+}
+
+.red {
+  color: #FF5C30;
 }
 
 .worklabels {
@@ -95,20 +110,21 @@ p {
 .navbar-light .navbar-nav .nav-link {
   font-size: 0.7em;
   font-family: 'Open Sans', sans-serif;
+  color: #FF7F5D;
 }
 
 .navbar-light .navbar-nav .nav-link:hover {
-  color: #ff6b6b;
+  color: #FFB75D;
 }
 
-.active {
-  color:#ff6b6b;
+.navbar-light .navbar-nav .nav-link.active {
+  color:#FFB75D;
 }
 
 .main {
   width: 100vw;
-  height: 95vh;
-  padding: 20% 10% 0% 10%;
+  height: 75vh;
+  padding: 10% 10% 0% 10%;
 }
 
 
@@ -128,11 +144,13 @@ p {
   letter-spacing: 1px;
   padding: 10px;
   background-color: #ffffff;
-  border: 1px solid #424242;
+  color: #FF7F5D;
+  border: 1px solid #FF7F5D;
 }
 .button:hover {
   cursor: pointer;
-  background-color: #424242;
+  /* background-color: #424242; */
+  background-color: #FF7F5D;
   color: #ffffff !important;
 }
 
@@ -182,6 +200,17 @@ p {
 #layout5 {
   -ms-flex: 100%;
   flex: 100%;
+}
+
+#logoimage {
+  background-image: url(/images/Logo.svg);
+  width: 3em;
+  height: 3em;
+  /* position: absolute; */
+  background-size: contain;
+  background-repeat: no-repeat;
+  float: left;
+  margin-right: 1em;
 }
 
 .images:hover {
@@ -415,7 +444,7 @@ p {
 }
 
 .link {
-  color: #ff6b6b;
+  color: #FF7F5D;
 }
 
 .indimages {
@@ -577,7 +606,7 @@ p {
 
 .navbar-light .navbar-toggler {
   border: none;
-  color: #ff6b6b;
+  color: #FF7F5D;
   padding: 0;
 }
 
