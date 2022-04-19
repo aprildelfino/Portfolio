@@ -214,7 +214,8 @@ p {
 }
 
 .images:hover {
-  /* opacity: 0.7;  */
+  opacity: 0.8; 
+  transition: ease-in 0.2s;);
   cursor: pointer;
 }
 
@@ -226,7 +227,7 @@ p {
   background-size: cover;
 }
 #image1:hover {
-  background-image: url('/images/bychloecruz_makeup_packaging_back.jpg');
+  /* background-image: url('/images/bychloecruz_makeup_packaging_back.jpg'); */
 }
 
 #image2 {
@@ -236,9 +237,9 @@ p {
   background-position: center; 
   background-size: cover;
 }
-#image2:hover {
+/* #image2:hover {
   background-image: url('/images/coast_fraser_product_guide_products_side.jpg');
-}
+} */
 
 #image3 {
   width: 100%;
@@ -247,9 +248,9 @@ p {
   background-position: center; 
   background-size: cover;
 }
-#image3:hover {
+/* #image3:hover {
   background-image: url('/images/JAJA_website_start.png')
-}
+} */
 
 #image4 {
   width: 100%;
@@ -258,9 +259,9 @@ p {
   background-position: center; 
   background-size: cover;
 }
-#image4:hover {
+/* #image4:hover {
   background-image: url('/images/gdragon_digital_painting2.png');
-}
+} */
 
 #image5 {
   width: 100%;
@@ -269,9 +270,9 @@ p {
   background-position: center; 
   background-size: cover;
 }
-#image5:hover {
+/* #image5:hover {
   background-image: url('/images/musical_magic_drstrange.jpg');
-}
+} */
 
 #image6 {
   width: 100%;
@@ -280,9 +281,9 @@ p {
   background-position: center; 
   background-size: cover;
 }
-#image6:hover {
+/* #image6:hover {
   background-image: url('/images/coast_fraser_product_video_01.jpg');
-}
+} */
 
 /*** Illustrations ***/
 
@@ -623,11 +624,9 @@ p {
   font-size: 3.5rem;
 }
 
-
 .ind_header {
   height: 200px;
 }
-
 
 .aboutcont {
   margin: 0 0;
@@ -679,5 +678,18 @@ p {
   margin: 0 15%;
   padding: 0;
 }
+
+}
+
+@media screen and (min-width: 100px) and (max-width: 375px) {
+
+.navbar-toggler {
+  width: 100%;
+  height: 2em;
+  /* align-items: center; */
+  padding: 10em;
+  /* display: flex; */
+}
+
 
 }
