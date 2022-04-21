@@ -212,6 +212,11 @@ p {
   margin-right: 1em;
 }
 
+#logoimagegif {
+  float: left;
+  margin-right: 1em;
+}
+
 .images:hover {
   opacity: 0.8; 
   transition: ease-in 0.2s;
@@ -610,7 +615,7 @@ p {
   padding: 0;
 }
 
-#logonav {
+.logonav {
   width: 30%;
 }
 
