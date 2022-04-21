@@ -202,20 +202,19 @@ p {
   flex: 100%;
 }
 
-#logoimage {
+/* #logoimage {
   background-image: url(/images/Logo.svg);
   width: 3em;
   height: 3em;
-  /* position: absolute; */
   background-size: contain;
   background-repeat: no-repeat;
   float: left;
   margin-right: 1em;
-}
+} */
 
 .images:hover {
   opacity: 0.8; 
-  transition: ease-in 0.2s;);
+  transition: ease-in 0.2s;
   cursor: pointer;
 }
 
@@ -226,9 +225,9 @@ p {
   background-position: center; 
   background-size: cover;
 }
-#image1:hover {
-  /* background-image: url('/images/bychloecruz_makeup_packaging_back.jpg'); */
-}
+/* #image1:hover {
+  background-image: url('/images/bychloecruz_makeup_packaging_back.jpg');
+} */
 
 #image2 {
   width: 100%;
@@ -611,6 +610,10 @@ p {
   padding: 0;
 }
 
+#logonav {
+  width: 30%;
+}
+
 .main {
   padding-top: 6%;
   margin-bottom: 10em;
@@ -677,6 +680,14 @@ p {
   flex: 100%;
   margin: 0 15%;
   padding: 0;
+}
+
+.navbar-toggler {
+  width: 100%;
+  height: 2em;
+  /* align-items: center; */
+  padding: 10em;
+  /* display: flex; */
 }
 
 }
