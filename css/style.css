@@ -26,7 +26,6 @@ a, a:hover {
   font-size: 1.5rem;
   font-weight: 100;
   letter-spacing: 6px;
-  /* display: block; */
   float: left;
   align-items: center;
   display: flex;
@@ -62,7 +61,7 @@ a, a:hover {
 .worklabels {
   margin-top: 15px;
   color: #424242;
-  font-size: 0.8rem;
+  font-size: 15px;
   font-family: 'Open Sans', sans-serif;
   font-weight: 100;
 }
@@ -70,7 +69,7 @@ a, a:hover {
   font-weight: bold;
 }
 .worklabels i {
-  font-size: 0.7rem;
+  font-size: 12px;
 }
 
 p {
@@ -94,7 +93,7 @@ p {
 #copyright {
   color: rgba(0,0,0,.5);
   font-family: 'Open Sans', sans-serif;
-  font-size: 0.7rem;
+  font-size: 15px;
   margin: 10px 0 30px 0;
 }
 
@@ -108,7 +107,8 @@ p {
 }
 
 .navbar-light .navbar-nav .nav-link {
-  font-size: 0.7em;
+  font-size: 15px;
+  font-weight: 500;
   font-family: 'Open Sans', sans-serif;
   color: #FF7F5D;
 }
@@ -140,8 +140,8 @@ p {
   width: 10%;
   margin-left: 5%;
   font-family: 'Red Hat Display', sans-serif;
-  font-size: 0.5rem;
-  letter-spacing: 1px;
+  font-size: 12px;
+  letter-spacing: 2px;
   padding: 10px;
   background-color: #ffffff;
   color: #FF7F5D;
@@ -160,7 +160,7 @@ p {
 
 .gallery2 {
   width: 100%;
-  margin-top: 50px;
+  margin-top: 100px;
 }
 
 .galleryrow {
@@ -415,23 +415,29 @@ p {
 }
 
 .fa-angle-down {
+  width: 100vw;
+  text-align: center;
   font-size: 4rem;
-  color:white;
-  text-shadow: 2px 1px 3px #000000;
+  color:#FFB75D;
+  /* text-shadow: 2px 1px 3px #000000; */
   margin-top: -100px;
   position: absolute;
-  animation: flash 4s infinite;
+  animation: flash 5s infinite;
 }
 @keyframes flash {
   from,
-  50%,
+  0%,
   to {
     opacity: 1;
   }
 
   
-  75% {
+  50% {
     opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
   }
 }
 
@@ -541,30 +547,6 @@ p {
   padding: 10% 0;
 }
 
-.funfacts {
-  -ms-flex: 50%;
-  flex: 50%;
-  padding-left: 6%;
-}
-
-.funfacts li {
-  text-indent: -1em;
-  margin-bottom: 15px;
-}
-
-.instagram {
-  float: left;
-  -ms-flex: 50%;
-  flex: 50%;
-}
-
-.instaimg {
-  width: 100%;
-  height: 60vh;
-  object-fit: cover;
-  object-position: bottom;
-}
-
 
 /*** Footer
 –––––––––––––––––––––––––––––––––––––––––––– ***/
@@ -585,6 +567,13 @@ p {
 –––––––––––––––––––––––––––––––––––––––––––– ***/
 
 @media screen and (min-width: 100px) and (max-width: 900px) {
+
+.logonav {
+  width: 20%;
+}
+.fa-angle-down {
+  display: none;
+}
 .galleryrow {
   height: 1000px;
   display: -ms-flexbox; /* IE10 */
@@ -597,26 +586,35 @@ p {
   -ms-flex: 100%;
   flex: 100% !important;
 }
+.bottomnav {
+  width: 100vw;
+}
 
 }
 
-@media screen and (min-width: 100px) and (max-width: 770px) {
+@media screen and (min-width: 100px) and (max-width: 800px) {
 #topape {
   font-size: 1rem;
 }
 
-.navbar, .navbar-light {
-  padding: 5% 10%;
+.logonav {
+  width: 100%;
 }
+
+.navbar-brand {
+  width: 15%;
+  padding: 0;
+}
+
+.navbar-toggler {
+  width: 10px;
+}
+
 
 .navbar-light .navbar-toggler {
   border: none;
   color: #FF7F5D;
   padding: 0;
-}
-
-.logonav {
-  width: 30%;
 }
 
 .main {
@@ -667,9 +665,6 @@ p {
 #smoller {
   padding: 0 10%;
 }
-.fa-angle-down {
-  display: none;
-}
 .indimagesside {
   width: 90%;
   margin: 5% 5% -5% 5%;
@@ -677,34 +672,22 @@ p {
 }
 
 
-.instagram {
-  margin: 0 10%;
 }
 
-.funfacts {
-  flex: 100%;
-  margin: 0 15%;
-  padding: 0;
+
+@media screen and (min-width: 100px) and (max-width: 400px) {
+.logonav {
+  width: 25%;
 }
 
+.navbar-brand {
+  width: 100%;
+}
+  
 .navbar-toggler {
   width: 100%;
   height: 2em;
-  /* align-items: center; */
   padding: 10em;
-  /* display: flex; */
-}
-
-}
-
-@media screen and (min-width: 100px) and (max-width: 375px) {
-
-.navbar-toggler {
-  width: 100%;
-  height: 2em;
-  /* align-items: center; */
-  padding: 10em;
-  /* display: flex; */
 }
 
 
