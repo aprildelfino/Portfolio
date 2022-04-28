@@ -295,8 +295,9 @@ p {
   width: 100%;
   height: 90%;
   background-image: url(/images/pfpsis.jpg);
-  background-position: center; 
-  background-size: cover;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
   cursor: default;
 }
 #ill2 {
@@ -304,7 +305,8 @@ p {
   height: 90%;
   background-image: url(/images/blondegirl.JPG);
   background-position: center; 
-  background-size: cover;
+  background-size: contain;
+  background-repeat: no-repeat;
   cursor: default;
 }
 #ill3 {
@@ -320,7 +322,8 @@ p {
   height: 90%;
   background-image: url(/images/huion.jpg);
   background-position: center; 
-  background-size: cover;
+  background-size: contain;
+  background-repeat: no-repeat;
   cursor: default;
 }
 #ill5 {
@@ -328,7 +331,8 @@ p {
   height: 90%;
   background-image: url(/images/floatingcouple.jpg);
   background-position: center; 
-  background-size: cover;
+  background-size: contain;
+  background-repeat: no-repeat;
   cursor: default;
 }
 #ill6 {
@@ -336,7 +340,8 @@ p {
   height: 90%;
   background-image: url(/images/sketchhand.png);
   background-position: center; 
-  background-size: cover;
+  background-size: contain;
+  background-repeat: no-repeat;
   cursor: default;
 }
 #ill7 {
@@ -344,7 +349,8 @@ p {
   height: 90%;
   background-image: url(/images/sketchgirl.png);
   background-position: center; 
-  background-size: cover;
+  background-size: contain;
+  background-repeat: no-repeat;
   cursor: default;
 }
 #ill8 {
@@ -352,7 +358,8 @@ p {
   height: 90%;
   background-image: url(/images/sketchprincess.png);
   background-position: center; 
-  background-size: cover;
+  background-size: contain;
+  background-repeat: no-repeat;
   cursor: default;
 }
 #ill9 {
@@ -360,7 +367,8 @@ p {
   height: 90%;
   background-image: url(/images/pfpcaro.png);
   background-position: center; 
-  background-size: cover;
+  background-size: contain;
+  background-repeat: no-repeat;
   cursor: default;
 }
 #ill10 {
@@ -368,7 +376,8 @@ p {
   height: 90%;
   background-image: url(/images/pfpcate.jpg);
   background-position: center; 
-  background-size: cover;
+  background-size: contain;
+  background-repeat: no-repeat;
   cursor: default;
 }
 #ill11 {
@@ -376,7 +385,8 @@ p {
   height: 90%;
   background-image: url(/images/family.png);
   background-position: center; 
-  background-size: cover;
+  background-size: contain;
+  background-repeat: no-repeat;
   cursor: default;
 }
 
