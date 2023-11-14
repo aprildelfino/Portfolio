@@ -37,7 +37,8 @@ a, a:hover {
   font-size: 4rem;
   font-weight: bold;
   letter-spacing: 2px;
-  margin-bottom: 10%;
+  /* margin-bottom: 10%; */
+  margin-bottom: 8%;
   margin-right: 3%;
   animation: slideInDown 1s forwards;
 }
@@ -564,8 +565,8 @@ p {
 –––––––––––––––––––––––––––––––––––––––––––– ***/
 .bottomnav {
   width: 100vw;
-  padding: 2% 10%;
-  border-top: 1px solid #ebebeb;
+  /* padding: 2% 10%; */
+  /* border-top: 1px solid #ebebeb; */
   background-color: #ffffff;
 }
 
