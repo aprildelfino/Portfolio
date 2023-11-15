@@ -565,8 +565,8 @@ p {
 –––––––––––––––––––––––––––––––––––––––––––– ***/
 .bottomnav {
   width: 100vw;
-  /* padding: 2% 10%; */
-  /* border-top: 1px solid #ebebeb; */
+  padding: 2% 10%;
+  border-top: 1px solid #ebebeb;
   background-color: #ffffff;
 }
 
